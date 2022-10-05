@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Title</title>
+	<style>
+	  header {
+	    height: 300px;
+	    margin: 0;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    background-color: #333;
+	    color: #ccc;
+	  }
+		:where(header, main, footer) p:hover {
+			color: red;
+			cursor: pointer;
+		}
+		:where(.button-div) button{
+		  color: #333;
+		  cursor: crosshair;
+		  background-color: burlywood;
+		  padding: 1rem;
+		  border: none;
+		  border-radius: 5px;
+		}
+		.button-div {
+		  display: flex;
+		  justify-content: center;
+		  gap: 2rem;
+		  padding: 2rem;
+		  background-color: #333333;
+		}
+	</style>
+</head>
+<body>
+<header>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, iusto!</p>
+</header>
+<h1>Testing some shizz out...</h1>
+<div class="button-div">
+	<button>Do not press</button>
+	<button>Do not press</button>
+	<button>Do not press</button>
+</div>
+</body>
+</html>
