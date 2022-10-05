@@ -153,7 +153,7 @@ custom-element::part(foo) {
 	
 # RANDOM PROPERTIES
 
-* content-visibility
+* [content-visibility](https://www.google.com/search?q=content-visibility)
 * Accent-color
 * touch-action
 * line-clamp
